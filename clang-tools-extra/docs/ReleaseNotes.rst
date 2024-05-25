@@ -166,11 +166,10 @@ New checks
   to reading out-of-bounds data due to inadequate or incorrect string null
   termination.
 
-- New :doc:`misc-use-internal-linkage
-  <clang-tidy/checks/misc/use-internal-linkage>` check.
+- New :doc:`misc-fix-stdstring-data-access
+  <clang-tidy/checks/misc/fix-stdstring-data-access>` check.
 
-  Detects variables and functions that can be marked as static or moved into
-  an anonymous namespace to enforce internal linkage.
+  FIXME: add release notes.
 
 - New :doc:`modernize-min-max-use-initializer-list
   <clang-tidy/checks/modernize/min-max-use-initializer-list>` check.

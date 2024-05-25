@@ -13,6 +13,7 @@
 #include "ConstCorrectnessCheck.h"
 #include "CoroutineHostileRAIICheck.h"
 #include "DefinitionsInHeadersCheck.h"
+#include "FixStdstringDataAccessCheck.h"
 #include "HeaderIncludeCycleCheck.h"
 #include "IncludeCleanerCheck.h"
 #include "MisleadingBidirectional.h"
@@ -47,6 +48,8 @@ public:
         "misc-coroutine-hostile-raii");
     CheckFactories.registerCheck<DefinitionsInHeadersCheck>(
         "misc-definitions-in-headers");
+    CheckFactories.registerCheck<FixStdstringDataAccessCheck>(
+        "misc-fix-stdstring-data-access");
     CheckFactories.registerCheck<HeaderIncludeCycleCheck>(
         "misc-header-include-cycle");
     CheckFactories.registerCheck<IncludeCleanerCheck>("misc-include-cleaner");

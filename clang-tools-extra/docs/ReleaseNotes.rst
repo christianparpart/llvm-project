@@ -147,10 +147,10 @@ New checks
   Detects error-prone Curiously Recurring Template Pattern usage, when the CRTP
   can be constructed outside itself and the derived class.
 
-- New :doc:`bugprone-pointer-arithmetic-on-polymorphic-object
-  <clang-tidy/checks/bugprone/pointer-arithmetic-on-polymorphic-object>` check.
+- New :doc:`bugprone-misplaced-else-if
+  <clang-tidy/checks/bugprone/misplaced-else-if>` check.
 
-  Finds pointer arithmetic performed on classes that contain a virtual function.
+  FIXME: add release notes.
 
 - New :doc:`bugprone-return-const-ref-from-parameter
   <clang-tidy/checks/bugprone/return-const-ref-from-parameter>` check.

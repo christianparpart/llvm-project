@@ -176,6 +176,11 @@ New checks
   Check for missing parentheses in mathematical expressions that involve
   operators of different priorities.
 
+- New :doc:`readability-misplaced-else-if
+  <clang-tidy/checks/readability/misplaced-else-if>` check.
+
+  FIXME: add release notes.
+
 - New :doc:`readability-use-std-min-max
   <clang-tidy/checks/readability/use-std-min-max>` check.
 

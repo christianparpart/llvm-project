@@ -39,6 +39,7 @@
 #include "LambdaFunctionNameCheck.h"
 #include "MacroParenthesesCheck.h"
 #include "MacroRepeatedSideEffectsCheck.h"
+#include "MisplacedElseIfCheck.h"
 #include "MisplacedOperatorInStrlenInAllocCheck.h"
 #include "MisplacedPointerArithmeticInAllocCheck.h"
 #include "MisplacedWideningCastCheck.h"
@@ -138,6 +139,8 @@ public:
         "bugprone-inaccurate-erase");
     CheckFactories.registerCheck<IncorrectEnableIfCheck>(
         "bugprone-incorrect-enable-if");
+    CheckFactories.registerCheck<MisplacedElseIfCheck>(
+        "bugprone-misplaced-else-if");
     CheckFactories.registerCheck<ReturnConstRefFromParameterCheck>(
         "bugprone-return-const-ref-from-parameter");
     CheckFactories.registerCheck<SwitchMissingDefaultCaseCheck>(

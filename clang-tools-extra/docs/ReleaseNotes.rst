@@ -134,6 +134,11 @@ New checks
   Detects error-prone Curiously Recurring Template Pattern usage, when the CRTP
   can be constructed outside itself and the derived class.
 
+- New :doc:`bugprone-misplaced-else-if
+  <clang-tidy/checks/bugprone/misplaced-else-if>` check.
+
+  FIXME: add release notes.
+
 - New :doc:`bugprone-return-const-ref-from-parameter
   <clang-tidy/checks/bugprone/return-const-ref-from-parameter>` check.
 

@@ -105,6 +105,7 @@ Clang-Tidy Checks
    :doc:`bugprone-lambda-function-name <bugprone/lambda-function-name>`,
    :doc:`bugprone-macro-parentheses <bugprone/macro-parentheses>`, "Yes"
    :doc:`bugprone-macro-repeated-side-effects <bugprone/macro-repeated-side-effects>`,
+   :doc:`bugprone-misplaced-else-if <bugprone/misplaced-else-if>`, "Yes"
    :doc:`bugprone-misplaced-operator-in-strlen-in-alloc <bugprone/misplaced-operator-in-strlen-in-alloc>`, "Yes"
    :doc:`bugprone-misplaced-pointer-arithmetic-in-alloc <bugprone/misplaced-pointer-arithmetic-in-alloc>`, "Yes"
    :doc:`bugprone-misplaced-widening-cast <bugprone/misplaced-widening-cast>`,
@@ -396,10 +397,8 @@ Clang-Tidy Checks
    :doc:`readability-use-std-min-max <readability/use-std-min-max>`, "Yes"
    :doc:`zircon-temporary-objects <zircon/temporary-objects>`,
 
-Check aliases
--------------
 
-.. csv-table::
+.. csv-table:: Aliases..
    :header: "Name", "Redirect", "Offers fixes"
 
    :doc:`bugprone-narrowing-conversions <bugprone/narrowing-conversions>`, :doc:`cppcoreguidelines-narrowing-conversions <cppcoreguidelines/narrowing-conversions>`,

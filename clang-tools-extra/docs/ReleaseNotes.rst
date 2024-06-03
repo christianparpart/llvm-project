@@ -158,6 +158,11 @@ New checks
 
   FIXME: add release notes.
 
+- New :doc:`misc-oversized-function-body
+  <clang-tidy/checks/misc/oversized-function-body>` check.
+
+  FIXME: add release notes.
+
 - New :doc:`modernize-min-max-use-initializer-list
   <clang-tidy/checks/modernize/min-max-use-initializer-list>` check.
 
